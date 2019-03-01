@@ -1,0 +1,24 @@
+{
+  "name": "user-service-mongoose",
+  "version": "1.0.0",
+  "description": "User Service manage persistence store in MongoDB, and handle all interactions with MongoDB using Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "restart": "nodemon app.js"
+  },
+  "keywords": [
+    "mongoose",
+    "express",
+    "body-parser"
+  ],
+  "author": "mohsinkd786",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17",
+    "nodemon": "^1.18.4"
+  }
+}
